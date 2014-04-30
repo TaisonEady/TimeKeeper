@@ -1,4 +1,6 @@
-package com.example.timekeeper;
+package com.devcode.timekeeper;
+
+import com.example.timekeeper.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
