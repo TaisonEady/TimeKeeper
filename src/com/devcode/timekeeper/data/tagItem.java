@@ -1,15 +1,22 @@
 package com.devcode.timekeeper.data;
 
-public class tagItem {
-	
-	private String desc;
-	
-	public tagItem(String desc){
+public class TagItem
+{
+
+	private String	desc;
+
+
+
+	public TagItem(String desc)
+	{
 		this.desc = desc;
 	}
 
-	public String getDesc() {
+
+
+	public String getDesc()
+	{
 		return desc;
 	}
-	
+
 }

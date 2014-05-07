@@ -2,36 +2,52 @@ package com.devcode.timekeeper.data;
 
 import java.util.ArrayList;
 
-public class logItem {
-	
 
 
-	private String description;
-	private ArrayList<tagItem> tags;
-	private ArrayList<intervalItem> intervals;
-	
-	//constructor
-	public logItem(){
+
+public class LogItem
+{
+
+	private String							description;
+	private ArrayList<TagItem>			tags;
+	private ArrayList<IntervalItem>	intervals;
+
+
+
+	// constructor
+	public LogItem()
+	{
 		description = "New Log";
-		tags = new ArrayList<tagItem>();
-		intervals = new ArrayList<intervalItem>();
+		tags = new ArrayList<TagItem>();
+		intervals = new ArrayList<IntervalItem>();
 	}
-	
-	
-	public String getDescription() {
+
+
+
+	public String getDescription()
+	{
 		return description;
 	}
 
-	public void setDescription(String description) {
+
+
+	public void setDescription(String description)
+	{
 		this.description = description;
 	}
 
-	public ArrayList<tagItem> getTags() {
+
+
+	public ArrayList<TagItem> getTags()
+	{
 		return tags;
 	}
 
-	public ArrayList<intervalItem> getIntervals() {
+
+
+	public ArrayList<IntervalItem> getIntervals()
+	{
 		return intervals;
 	}
-	
+
 }
